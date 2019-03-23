@@ -1,0 +1,158 @@
+
+#header{
+    width: 100%;
+    height: 100px;
+    background: #222;
+    color: white;
+    z-index: 2;
+    
+}
+
+.logo{
+    width: 250px;
+    height: 95px;
+    position: absolute;
+    margin-top: 2.5px;
+}
+
+.obsah{
+    position: relative;
+    /*padding-top: 5px;*/
+}
+
+.obsah p{
+    margin-bottom: 10px;
+}
+
+.kontejner{
+    font-family: sans-serif, Helvetica;
+    font-weight: 321;
+    margin: 0 auto;
+    position: relative;
+    max-width: 1200px;
+    width: 95%;
+    font-size: 17px;
+}
+
+#nav{
+    position: absolute;
+    right: 0;
+}
+
+#nav a:hover{
+    color: rgb(193, 0, 0);   
+}
+
+
+#nav ul li{
+    float: left;
+    list-style: none;
+    
+}
+#nav ul li a{
+    display: block;
+    padding: 0px 13px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 22px;
+}
+
+/* Responzivita */
+@media (max-width:600px){
+    #nav{
+        width: 100%;
+        top: 70%;  
+    }
+    #header .kontejner{
+        width: 100%;
+    }
+
+    #nav ul{
+        width: 100%;
+    }
+
+    #nav ul li{
+        float: none;
+    }
+
+    #nav ul li a{
+        padding: 5px;
+        line-height: 10px;
+        margin-left: 250px;
+    }
+}
+
+/* obrazky */
+.img-onas{
+    height: 500px;
+    width: 400px;
+    float: right;
+    padding-left: 20px;
+    margin-bottom: 2px;
+}
+
+/* produkty */
+
+.column{
+    float: left;
+    width: 31%;
+    padding: 10px;
+}
+.column p{
+    text-align: center;
+}
+
+.column-ref{
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .column {
+      width: 60%;
+      margin-left: 150px;
+    }
+
+    .column-ref {
+        width: 70%;
+        margin-left: 150px;
+      }
+  }
+  
+  /* formular */
+
+.formular textarea {
+    height: 120px;
+}
+
+.formular label {
+    text-align: center;
+    padding: 0px;
+    display: block;
+}
+
+.formular button {
+    font-size: 12px;
+    padding: 1em; 
+    border-radius: 0.5em;
+    margin-right: 20em;
+    background: #eee;
+    border: none;
+    font-weight: bold;
+    float: right; 
+    }
+    
+.formular textarea, input, select {
+    margin-left: 2em;
+    width: 22em;
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+    padding: 0.4em;
+    border-radius: 0.5em;
+}
+
+
+
